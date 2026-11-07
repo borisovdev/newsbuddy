@@ -26,7 +26,11 @@ jobs:
 
       - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
         with:
-          go-version-file: go.mod
+          # Latest 1.26 patch, matching golang:1.26-alpine in deploy/Dockerfile.
+          # go.mod's `go` line is only the minimum and would pin an old,
+          # vulnerable stdlib (govulncheck scans the toolchain in use).
+          go-version: '1.26.x'
+          check-latest: true
 
       - name: Verify go.mod/go.sum are tidy
         run: go mod tidy -diff
@@ -45,7 +49,11 @@ jobs:
 
       - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
         with:
-          go-version-file: go.mod
+          # Latest 1.26 patch, matching golang:1.26-alpine in deploy/Dockerfile.
+          # go.mod's `go` line is only the minimum and would pin an old,
+          # vulnerable stdlib (govulncheck scans the toolchain in use).
+          go-version: '1.26.x'
+          check-latest: true
 
       - name: Run govulncheck
         # Pinned for reproducible CI; the vulnerability DB is fetched live
