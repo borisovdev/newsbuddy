@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Unusable Item Feed</title>
+    <link>https://example.com/unusable-feed</link>
+    <description>Contains one item with no guid, no link, and no title (must be skipped) plus one normal usable item.</description>
+    <item>
+      <description>This item has no guid, no link, and no title. It is completely unusable and must be skipped with a warn log.</description>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Usable Item</title>
+      <link>https://example.com/unusable-feed/usable</link>
+      <guid>https://example.com/unusable-feed/usable</guid>
+      <description>This item is perfectly usable.</description>
+      <pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

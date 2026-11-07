@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Duplicate GUID Feed</title>
+    <link>https://example.com/dup-guid-feed</link>
+    <description>The same guid appears on 3 items in a known order, to test first-occurrence-wins dedup.</description>
+    <item>
+      <title>Duplicate GUID - First Occurrence</title>
+      <link>https://example.com/dup/first</link>
+      <guid>https://example.com/dup/shared-guid</guid>
+      <description>This is the first occurrence and should win.</description>
+      <pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Duplicate GUID - Second Occurrence</title>
+      <link>https://example.com/dup/second</link>
+      <guid>https://example.com/dup/shared-guid</guid>
+      <description>This is the second occurrence and should be dropped.</description>
+      <pubDate>Mon, 01 Jan 2024 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Duplicate GUID - Third Occurrence</title>
+      <link>https://example.com/dup/third</link>
+      <guid>https://example.com/dup/shared-guid</guid>
+      <description>This is the third occurrence and should be dropped.</description>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

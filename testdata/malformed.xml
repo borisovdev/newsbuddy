@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Malformed Feed</title>
+    <link>https://example.com/malformed-feed</link>
+    <description>Syntactically broken XML (unclosed tag) that must not crash the parser.</description>
+    <item>
+      <title>Broken Item
+      <link>https://example.com/malformed/1</link>
+      <guid>https://example.com/malformed/1</guid>
+      <description>This item's title tag is never closed.</description>
+    </item>
+  </channel>
+</rss>

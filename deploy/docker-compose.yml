@@ -1,0 +1,33 @@
+services:
+  news-buddy:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      args:
+        VERSION: ${VERSION:-dev}
+    # image: news-buddy:latest
+    restart: unless-stopped
+    environment:
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:?required}
+      TELEGRAM_CHANNEL_ID: ${TELEGRAM_CHANNEL_ID:?required}
+      TELEGRAM_OWNER_ID: ${TELEGRAM_OWNER_ID:?required}
+      DB_PATH: /data/news-buddy.db
+      # POLL_INTERVAL: 5m
+      # HTTP_TIMEOUT: 15s
+      # EXCERPT_LEN: 300
+      # MAX_ITEMS_PER_POLL: 20
+      # LOG_LEVEL: info
+      # LOG_FORMAT: json
+    env_file:
+      - .env
+    volumes:
+      - newsbuddy-data:/data
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    stop_grace_period: 15s
+
+volumes:
+  newsbuddy-data:

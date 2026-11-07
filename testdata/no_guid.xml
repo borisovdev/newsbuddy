@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>No-GUID Feed</title>
+    <link>https://example.com/no-guid-feed</link>
+    <description>All items lack a guid element, forcing link-based key fallback.</description>
+    <item>
+      <title>Link-Keyed Item One</title>
+      <link>https://example.com/no-guid/1</link>
+      <description>First item with no guid.</description>
+      <pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Link-Keyed Item Two</title>
+      <link>https://example.com/no-guid/2</link>
+      <description>Second item with no guid.</description>
+      <pubDate>Mon, 01 Jan 2024 11:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

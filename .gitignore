@@ -1,0 +1,18 @@
+bin/
+/news-buddy
+data/
+coverage.out
+*.db
+*.db-wal
+*.db-shm
+deploy/.env
+
+# editor/OS noise
+.DS_Store
+.vscode/
+.idea/
+
+# ai
+.claude/settings.local.json
+.omc/
+.remember/

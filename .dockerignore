@@ -1,0 +1,10 @@
+.git
+bin
+data
+*.db*
+.omc
+deploy/.env
+testdata
+.claude
+.remember
+.DS_Store

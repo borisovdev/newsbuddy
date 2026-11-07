@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Relative Links Feed</title>
+    <link>https://example.com/base/</link>
+    <description>Item links are relative paths, requiring base-URL resolution.</description>
+    <item>
+      <title>Relative Link Item One</title>
+      <link>/articles/123</link>
+      <guid>https://example.com/relative/1</guid>
+      <description>Link is a root-relative path.</description>
+      <pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Relative Link Item Two</title>
+      <link>articles/456</link>
+      <guid>https://example.com/relative/2</guid>
+      <description>Link is a document-relative path.</description>
+      <pubDate>Mon, 01 Jan 2024 11:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

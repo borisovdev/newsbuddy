@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Future Dates Feed</title>
+    <link>https://example.com/future-feed</link>
+    <description>Items with pubDate values in the future, which must still be posted normally.</description>
+    <item>
+      <title>Future Item One</title>
+      <link>https://example.com/future/1</link>
+      <guid>https://example.com/future/1</guid>
+      <description>This item claims to be published in the future.</description>
+      <pubDate>Sat, 01 Jan 2050 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Future Item Two</title>
+      <link>https://example.com/future/2</link>
+      <guid>https://example.com/future/2</guid>
+      <description>Another item dated far in the future.</description>
+      <pubDate>Wed, 15 Jun 2099 08:30:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

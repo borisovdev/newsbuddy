@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Entities Feed</title>
+    <link>https://example.com/entities-feed</link>
+    <description>Title contains HTML-entity-encoded characters as they appear in real feed XML.</description>
+    <item>
+      <title>Tom &amp; Jerry: &lt;script&gt; and &amp;#39;quotes&amp;#39;</title>
+      <link>https://example.com/entities/1</link>
+      <guid>https://example.com/entities/1</guid>
+      <description>Body text also has an &amp; ampersand and a &lt;tag&gt; marker plus &amp;#39;doubled&amp;#39; quotes.</description>
+      <pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

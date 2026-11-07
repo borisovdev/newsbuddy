@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Golden Atom Feed</title>
+  <link href="https://example.com/atom-feed"/>
+  <id>https://example.com/atom-feed</id>
+  <updated>2024-01-01T20:00:00Z</updated>
+  <entry>
+    <title>Atom Item One</title>
+    <link href="https://example.com/atom/1"/>
+    <id>https://example.com/atom/1</id>
+    <updated>2024-01-01T10:00:00Z</updated>
+    <summary>Summary for atom item one.</summary>
+  </entry>
+  <entry>
+    <title>Atom Item Two</title>
+    <link href="https://example.com/atom/2"/>
+    <id>https://example.com/atom/2</id>
+    <updated>2024-01-01T11:00:00Z</updated>
+    <summary>Summary for atom item two.</summary>
+  </entry>
+  <entry>
+    <title>Atom Item Three</title>
+    <link href="https://example.com/atom/3"/>
+    <id>https://example.com/atom/3</id>
+    <updated>2024-01-01T12:00:00Z</updated>
+    <summary>Summary for atom item three.</summary>
+  </entry>
+  <entry>
+    <title>Atom Item Four</title>
+    <link href="https://example.com/atom/4"/>
+    <id>https://example.com/atom/4</id>
+    <updated>2024-01-01T13:00:00Z</updated>
+    <summary>Summary for atom item four.</summary>
+  </entry>
+  <entry>
+    <title>Atom Item Five</title>
+    <link href="https://example.com/atom/5"/>
+    <id>https://example.com/atom/5</id>
+    <updated>2024-01-01T14:00:00Z</updated>
+    <summary>Summary for atom item five.</summary>
+  </entry>
+  <entry>
+    <title>Atom Item Six</title>
+    <link href="https://example.com/atom/6"/>
+    <id>https://example.com/atom/6</id>
+    <updated>2024-01-01T15:00:00Z</updated>
+    <summary>Summary for atom item six.</summary>
+  </entry>
+  <entry>
+    <title>Atom Item Seven</title>
+    <link href="https://example.com/atom/7"/>
+    <id>https://example.com/atom/7</id>
+    <updated>2024-01-01T16:00:00Z</updated>
+    <summary>Summary for atom item seven.</summary>
+  </entry>
+  <entry>
+    <title>Atom Item Eight</title>
+    <link href="https://example.com/atom/8"/>
+    <id>https://example.com/atom/8</id>
+    <updated>2024-01-01T17:00:00Z</updated>
+    <summary>Summary for atom item eight.</summary>
+  </entry>
+  <entry>
+    <title>Atom Item Nine</title>
+    <link href="https://example.com/atom/9"/>
+    <id>https://example.com/atom/9</id>
+    <updated>2024-01-01T18:00:00Z</updated>
+    <summary>Summary for atom item nine.</summary>
+  </entry>
+  <entry>
+    <title>Atom Item Ten</title>
+    <link href="https://example.com/atom/10"/>
+    <id>https://example.com/atom/10</id>
+    <updated>2024-01-01T19:00:00Z</updated>
+    <summary>Summary for atom item ten.</summary>
+  </entry>
+  <entry>
+    <title>Atom Item Eleven</title>
+    <link href="https://example.com/atom/11"/>
+    <id>https://example.com/atom/11</id>
+    <updated>2024-01-01T20:00:00Z</updated>
+    <summary>Summary for atom item eleven.</summary>
+  </entry>
+</feed>

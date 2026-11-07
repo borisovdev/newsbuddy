@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<rss version="2.0">
+  <channel>
+    <title>Новости на русском</title>
+    <link>https://example.com/windows1251-feed</link>
+    <description>Лента, закодированная в windows-1251, для проверки декодирования по заявленной кодировке (edge 20).</description>
+    <item>
+      <title>Первая новость на кириллице</title>
+      <link>https://example.com/windows1251/1</link>
+      <guid>https://example.com/windows1251/1</guid>
+      <description>Это описание содержит русский текст: съешь ещё этих мягких французских булок, да выпей чаю.</description>
+      <pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
